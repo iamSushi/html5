@@ -66,6 +66,7 @@ header h1{
 
 /*------ main tag configuration ------*/
 main{
+	min-height: 800px;
 	margin-top: 50px;
 	font-family: sans-serif;
 }
