@@ -1,0 +1,129 @@
+/*------ global tag configuration -----*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*------ header tag configuration ------ */
+body{
+	width: 940px;
+	line-height: 1.5;
+	margin: auto;
+	background-color: #cecace;
+}
+header > div > div > p{
+	min-height: 70px;
+	line-height: 70px;
+	font-size: 36px;
+	background-color: white;
+	padding-left: 15px;
+}
+header > div > nav{
+	background-color: black;
+	min-height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+header > div > nav img{
+	float: right;
+	width: 35px;
+	height: 35px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+header > div > nav > ul > li a{
+	color: white;
+}
+header > div > nav > ul > li{
+	display: inline;
+	padding-right: 15px;
+}
+
+/*------ main tag configuration ------*/
+main{
+	font-family: sans-serif;
+}
+main > div > div img{
+	width: 940px;
+	height: 380px;
+	background-color: blue;
+	display: block;
+	margin: 0 auto;
+}
+main > div > div > div{
+	width: 30.1%;
+	min-height: 50px;
+	margin: 0 5px;
+	background-color: #edeff2;
+	float: left;
+	padding: 10px;
+}
+main > div > section{
+	float: left;
+	background-color: #edeff2;
+	margin-top: 20px;
+}
+main > div > section > article{
+	float: left;
+	height: auto;
+	width: 60%;
+	padding: 15px;
+}
+main > div > section > aside{
+	width: 300px;
+	height: auto;
+	float: right;
+	padding-top: 15px;
+}
+main > div > section > aside img{
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+main > div > section > aside > nav > ul > li{
+	padding: 15px;
+	font-size: 18px;
+	background-color: #d1cfd1;
+	margin-right: 30px;
+	border-bottom: 1px grey solid;
+	font-weight: bold;
+}
+main > div > section > aside > nav > ul > li > a{
+	color: black;
+}
+main > div > div > h2{
+	float: none;
+}
+main > div > nav >{
+	margin-top: 15px;
+}
+main > div > nav > section > div > img{
+	width: 230px;
+	height: 190px;
+	padding: 0 2px;
+	float: left;
+}
+button{
+	padding: 3px 7px;
+    border-radius: 8px 8px;
+}
+nav > ul > button{	
+	display: block;
+    margin: auto;
+}
+/*------ footer tag configuration -----*/
+footer{
+	min-height: 40px;
+	line-height: 40px;
+	float: left;
+	background-color: #edeff2;
+	width: 100%;
+	margin-top: 15px;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+footer p{
+	padding-left: 15px;
+}
