@@ -1,10 +1,13 @@
-input[type="button"]{
+button[type="button"]{
 	width: 50px;
 	height: 40px;
 	margin: 1px;
 }
 input[type="text"]{
-	width: 270px;
+	width: 250px;
 	height: 40px;
 	margin-bottom: 10px;
+	text-align: right;
+	padding: 3px 10px;
+	font-size: 30px;
 }
