@@ -10,28 +10,32 @@
 			
 		</header>
 		<main>
+
 			<form name="cal" action="">
-				<input type="text" name="display"><br>
-				<button type="button" name="btn7" onclick="document.cal.display.value +='7'">7</button>
-				<button type="button" name="btn8" onclick="document.cal.display.value +='8'">8</button>
-				<button type="button" name="btn9" onclick="document.cal.display.value +='9'">9</button>
-				<button type="button" name="delbtn" onclick="">DEL</button>
-				<button type="button" name="clrbtn" onclick="clearbtn();">AC</button><br>
-				<button type="button" name="btn4" onclick="document.cal.display.value +='4'">4</button>
-				<button type="button" name="btn5" onclick="document.cal.display.value +='5'">5</button>
-				<button type="button" name="btn6" onclick="document.cal.display.value +='6'">6</button>
-				<button type="button" name="multbtn" onclick="document.cal.display.value +='*'">x</button>
-				<button type="button" name="divbtn" onclick="document.cal.display.value +='/'">/</button><br>
-				<button type="button" name="btn1" onclick="document.cal.display.value +='1'">1</button>
-				<button type="button" name="btn2" onclick="document.cal.display.value +='2'">2</button>
-				<button type="button" name="btn3" onclick="document.cal.display.value +='3'">3</button>
-				<button type="button" name="plsbtn" onclick="document.cal.display.value +='+'">+</button>
-				<button type="button" name="subbtn" onclick="document.cal.display.value +='-'">-</button><br>
-				<button type="button" name="btn0" onclick="document.cal.display.value +='0'">0</button>
-				<button type="button" name="dotbtn" onclick="document.cal.display.value +='.'">.</button>
-				<button type="button" name="pwrbtn" onclick="document.cal.display.value +='^'">^</button>
-				<button type="button" name="ansbtn" value="Ans" onclick="">ANS</button>
-				<button type="button" name="equbtn" value="=" onclick="document.cal.display.value = eval(document.cal.display.value)">=</button>
+				<p><strong>BASYO</strong> &reg; fx-991EX PLUS C</p>
+				<div>
+					<input type="text" name="display"><br>
+					<button type="button" name="btn7" onclick="document.cal.display.value +='7'">7</button>
+					<button type="button" name="btn8" onclick="document.cal.display.value +='8'">8</button>
+					<button type="button" name="btn9" onclick="document.cal.display.value +='9'">9</button>
+					<button type="button" name="delbtn" onclick="deletebtn();">DEL</button>
+					<button type="button" name="clrbtn" onclick="clearbtn();">AC</button><br>
+					<button type="button" name="btn4" onclick="document.cal.display.value +='4'">4</button>
+					<button type="button" name="btn5" onclick="document.cal.display.value +='5'">5</button>
+					<button type="button" name="btn6" onclick="document.cal.display.value +='6'">6</button>
+					<button type="button" name="multbtn" onclick="document.cal.display.value +='*'">x</button>
+					<button type="button" name="divbtn" onclick="document.cal.display.value +='/'">/</button><br>
+					<button type="button" name="btn1" onclick="document.cal.display.value +='1'">1</button>
+					<button type="button" name="btn2" onclick="document.cal.display.value +='2'">2</button>
+					<button type="button" name="btn3" onclick="document.cal.display.value +='3'">3</button>
+					<button type="button" name="plsbtn" onclick="document.cal.display.value +='+'">+</button>
+					<button type="button" name="subbtn" onclick="document.cal.display.value +='-'">-</button><br>
+					<button type="button" name="btn0" onclick="document.cal.display.value +='0'">0</button>
+					<button type="button" name="dotbtn" onclick="document.cal.display.value +='.'">.</button>
+					<button type="button" name="pwrbtn" onclick="powerbtn();">^</button>
+					<button type="button" name="ansbtn" value="Ans" onclick="document.cal.display.value +='%'">Mod</button>
+					<button type="button" name="equbtn" value="=" onclick="document.cal.display.value = eval(document.cal.display.value)">=</button>
+				</div>
 			</form>
 		</main>
 		<footer>
